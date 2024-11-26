@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="xa-u-compatible" content="ie=edge" />
+    <style>
+      .box {
+        height: 400px;
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        text-transform: capitalize;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: lightgreen;
+      }
+      .p2,.p3,.p4,.p5{
+        display: none;
+
+      }
+      @media only screen and (max-width: 1440px) and (min-width: 1024px) {
+        .box {
+          background-color: green;
+        }
+          .p2{
+            display: block;
+        }
+        }
+        
+    
+      @media only screen and (max-width: 1024px) and (min-width: 768px){
+        .box {
+          background-color: brown;
+        }
+        .p3{
+            display: block;
+        }
+        
+      }
+      @media only screen and (max-width: 768px) and (min-width: 425px){
+        .box {
+          background-color: skyblue;
+        }
+        .p4{
+            display: block;
+        }
+        
+      }
+      @media only screen and (max-width: 425px){
+        .box {
+          background-color: maroon;
+        }
+        .p5{
+            display: block;
+        }
+        
+      }
+    </style>
+    <title>project 4</title>
+  </head>
+  <body>
+    <div class="box box1">
+      <p class="p1">this is media query demo page</p>
+      <p class="p2">screen size : 1440px</p>
+      <p class="p3">screen size : 1024px</p>
+      <p class="p4">screen size : 768px</p>
+      <p class="p5">screen size : 425px</p>
+    </div>
+
+    </div>
+  </body>
+</html>
